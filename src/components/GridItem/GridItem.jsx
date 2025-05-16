@@ -1,5 +1,5 @@
-import s from './GridItem.module.css';
+import css from './GridItem.module.css';
 const GridItem = ({ children }) => {
-  return <li className={s.item}>{children}</li>;
+  return <li className={css.item}>{children}</li>;
 };
 export default GridItem;
